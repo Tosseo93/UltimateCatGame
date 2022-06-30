@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637920840080000000
+      ticks: 637921763800000000
     m_Hash: 3341051850
   m_LockFileStatus:
     m_FilePath: /Users/carlolander/github/UltimateCatGame/UltimateCatGame2000/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637920840080000000
+      ticks: 637921763800000000
     m_Hash: 3659150749
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

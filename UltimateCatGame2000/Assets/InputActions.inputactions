@@ -166,6 +166,17 @@
                 },
                 {
                     "name": "",
+                    "id": "a7bd3870-1899-40cd-a3ae-37b51e3a36e0",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Desktop",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "6dd625f2-2aae-498d-b0fd-2984e94828ce",
                     "path": "<XInputController>/buttonWest",
                     "interactions": "",
