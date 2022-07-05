@@ -40,6 +40,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "d5c25999-f0da-47ff-a6bc-45f653dadcec",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -155,17 +164,6 @@
                 },
                 {
                     "name": "",
-                    "id": "c480dad8-5fbb-4cc0-944a-33323f624234",
-                    "path": "<Keyboard>/e",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Desktop",
-                    "action": "Attack",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "a7bd3870-1899-40cd-a3ae-37b51e3a36e0",
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
@@ -249,6 +247,107 @@
                     "processors": "",
                     "groups": "Playstation",
                     "action": "Climb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "07ad2fda-1c8f-4a1c-86d4-a7b22394b1e8",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Dialogue",
+            "id": "fe638655-0fec-4adb-8e52-56cb03496996",
+            "actions": [
+                {
+                    "name": "Continue",
+                    "type": "Button",
+                    "id": "10738947-4591-44f8-9fa9-ebaf38973a33",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Response Switch Up",
+                    "type": "Button",
+                    "id": "dd953d00-27f3-4a87-bfc1-2f0bdc3331f9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Response Switch Down",
+                    "type": "Button",
+                    "id": "232dd184-5c73-4a10-9c37-91acd544eaa1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b97b76fe-8364-4e6e-bca1-c7da693eb531",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Desktop",
+                    "action": "Continue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "646d32bd-f5d2-4138-a014-93796bf68f60",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Response Switch Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "43bb411f-95b7-459e-9188-7a0a4f72a61e",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Response Switch Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5df526ff-4137-413e-9b77-0cd04c254988",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Response Switch Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "48963e1a-3e00-46fc-ba88-eb56a3c777b7",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Response Switch Down",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
