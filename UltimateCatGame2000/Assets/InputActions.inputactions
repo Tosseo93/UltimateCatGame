@@ -220,7 +220,7 @@
                 {
                     "name": "",
                     "id": "a7bd3870-1899-40cd-a3ae-37b51e3a36e0",
-                    "path": "<Mouse>/leftButton",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "Desktop",
